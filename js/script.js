@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-  const submitForm = document.getElementById("form");
+  const submitForm /* HTMLFormElement */ = document.getElementById("form");
 
   submitForm.addEventListener("submit", function (event) {
     event.preventDefault();
